@@ -57,22 +57,24 @@ header p span {
     font-weight: bold;
     font-family: 'Courier New', Courier, monospace;
 }
-.enter-nav {
+/* .enter-nav {
     padding-left: 1rem;
     padding-right: 1rem;
     font-weight: bold;
-}
+} */
+
 p a:hover {
     font-size: 1.5rem;
     font-weight: bold;
 }
 
 /* Pseudo-classes */
-a:link {
+/* a:link {
     color: black;
+    font-size: 1.5rem;
     text-decoration: none;
     border: 0.15rem solid transparent;
-    opacity: 0.8;
+    opacity: 0.8; */
 }
 
 a:visited {
