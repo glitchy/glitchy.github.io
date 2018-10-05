@@ -1,0 +1,42 @@
+/* Neon */
+p span a {
+    text-decoration: none;
+    -webkit-transition: all 0.15s;
+    -moz-transition: all 0.15s;
+    transition: all 0.15s;
+  }  
+p span a:hover {
+    -webkit-animation: neon4 1s ease-in-out infinite alternate;
+    -moz-animation: neon4 1s ease-in-out infinite alternate;
+    animation: neon4 1s ease-in-out infinite alternate;
+    color: #ffffff;
+  }
+
+/* Glow */
+@keyframes neon4 {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px rgb(39, 255, 197), 0 0 70px rgb(39, 255, 197), 0 0 80px rgb(39, 255, 197), 0 0 100px rgb(39, 255, 197), 0 0 150px rgb(39, 255, 197);
+    }
+    to {
+      text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px rgb(39, 255, 197), 0 0 35px rgb(39, 255, 197), 0 0 40px rgb(39, 255, 197), 0 0 50px rgb(39, 255, 197), 0 0 75px rgb(39, 255, 197);
+    }
+  }
+  
+/* Glow for Webkit */
+@-webkit-keyframes neon4 {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px rgb(39, 255, 197), 0 0 70px rgb(39, 255, 197), 0 0 80px rgb(39, 255, 197), 0 0 100px rgb(39, 255, 197), 0 0 150px rgb(39, 255, 197);
+    }
+    to {
+      text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px rgb(39, 255, 197), 0 0 35px rgb(39, 255, 197), 0 0 40px rgb(39, 255, 197), 0 0 50px rgb(39, 255, 197), 0 0 75px rgb(39, 255, 197);
+    }
+  }   
+/* Glow for Mozilla */
+@-moz-keyframes neon4 {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px rgb(39, 255, 197), 0 0 70px rgb(39, 255, 197), 0 0 80px rgb(39, 255, 197), 0 0 100px rgb(39, 255, 197), 0 0 150px rgb(39, 255, 197);
+    }
+    to {
+      text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px rgb(39, 255, 197), 0 0 35px rgb(39, 255, 197), 0 0 40px rgb(39, 255, 197), 0 0 50px rgb(39, 255, 197), 0 0 75px rgb(39, 255, 197);
+    }
+  }

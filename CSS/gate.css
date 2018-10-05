@@ -1,0 +1,88 @@
+
+/* Type-Selectors */
+body {
+    text-align: center;
+    margin: ;
+    font-size: 1rem;
+    font-family:'Times New Roman', Times, serif;
+    line-height: 1.5;
+
+}
+h1 {
+    font-size: 4rem;
+    color: black;
+}
+p {
+    font-size: 1rem;
+    color: black;
+    background-color: transparent;
+    text-align: center;
+}
+img {
+    width: 30rem;
+    height: auto;
+}
+
+/* Class Selectors */
+.main-header {
+    text-align: center;
+}
+.primary-content {
+    text-align: center;
+}
+.confirm-selection {
+    line-height: 1.2rem;
+    letter-spacing: 0.1rem;
+}
+.wolfhead-02 {
+    opacity: .8;
+    fill: rgb(33, 96, 33);
+}
+
+/* Descendant Selectors */
+header h1 {
+    font-size: 4rem;
+    color: black;
+    margin-top: 3rem;
+}
+header p {
+    font-size: 1.5rem;
+    color: black;
+    margin-top: -1rem;
+    margin-bottom: 6rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+header p span {
+    color: rgb(21, 100, 74);
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+.enter-nav {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-weight: bold;
+}
+p a:hover {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* Pseudo-classes */
+a:link {
+    color: black;
+    text-decoration: none;
+    border: 0.15rem solid transparent;
+    opacity: 0.8;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    /* color: rgb(21, 100, 74); */
+    /* border: 0.15rem solid rgb(201, 239, 226); */
+}
+a:active {
+    color: rgb(173, 218, 230);
+}
