@@ -57,6 +57,10 @@ header p span {
     font-weight: bold;
     font-family: 'Courier New', Courier, monospace;
 }
+nav a {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
 /* .enter-nav {
     padding-left: 1rem;
     padding-right: 1rem;
@@ -74,8 +78,8 @@ p a:hover {
     font-size: 1.5rem;
     text-decoration: none;
     border: 0.15rem solid transparent;
-    opacity: 0.8; */
-}
+    opacity: 0.8;
+} */
 
 a:visited {
     color: black;
