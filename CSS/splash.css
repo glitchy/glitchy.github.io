@@ -1,0 +1,36 @@
+
+/* Type-Selectors */
+
+body {
+    text-align: center;
+}
+img {
+    width: 30rem;
+    height: auto;
+}
+
+
+/* Class Selectors */
+
+.wolfhead-02 {
+    opacity: .8;
+}
+
+
+/* Descendant Selectors */
+
+nav a {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: black;
+    opacity: 0.8;
+}
+p a:hover {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: black;
+    opacity: 0.8;
+}
+
+/* Pseudo-classes */

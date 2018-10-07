@@ -60,6 +60,7 @@ header p span {
 nav a {
     font-size: 1.5rem;
     font-weight: bold;
+    opacity: 0.8;
 }
 /* .enter-nav {
     padding-left: 1rem;
@@ -73,21 +74,16 @@ p a:hover {
 }
 
 /* Pseudo-classes */
-/* a:link {
-    color: black;
-    font-size: 1.5rem;
-    text-decoration: none;
-    border: 0.15rem solid transparent;
-    opacity: 0.8;
-} */
+a:link {
+    
+}
 
 a:visited {
     color: black;
 }
 
 a:hover {
-    /* color: rgb(21, 100, 74); */
-    /* border: 0.15rem solid rgb(201, 239, 226); */
+
 }
 a:active {
     color: rgb(173, 218, 230);
