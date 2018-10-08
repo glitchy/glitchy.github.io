@@ -1,42 +1,285 @@
-/* Neon */
-p span a {
-    text-decoration: none;
-    -webkit-transition: all 0.15s;
-    -moz-transition: all 0.15s;
-    transition: all 0.15s;
-  }  
-p span a:hover {
-    -webkit-animation: neon4 1s ease-in-out infinite alternate;
-    -moz-animation: neon4 1s ease-in-out infinite alternate;
-    animation: neon4 1s ease-in-out infinite alternate;
-    color: #ffffff;
-  }
+/* Targets */
+svg #path-1 {
+  text-decoration: none;
+  -webkit-transition: all 0s;
+  -moz-transition: all 0s;
+  transition: all 0s;
+}  
+svg #path-1:hover {
+  animation: flicker 1s infinite step-end;
+  /* -webkit-animation: neon4 1s ease-in-out infinite alternate;
+  -moz-animation: neon4 1s ease-in-out infinite alternate;
+  animation: neon4 1s ease-in-out infinite alternate;
+  fill: #ffffff; */
+}
+
+svg #path-2 {
+  text-decoration: none;
+  -webkit-transition: all 0s;
+  -moz-transition: all 0s;
+  transition: all 0s;
+}  
+svg #path-2:hover {
+  animation: flicker 1s infinite step-end;
+  /* -webkit-animation: neon4 1s ease-in-out infinite alternate;
+  -moz-animation: neon4 1s ease-in-out infinite alternate;
+  animation: neon4 1s ease-in-out infinite alternate;
+  fill: #ffffff; */
+}
+
+svg #path-3 {
+  text-decoration: none;
+  -webkit-transition: all 0s;
+  -moz-transition: all 0s;
+  transition: all 0s;
+}  
+svg #path-3:hover {
+  animation: flicker 1s infinite step-end;
+  /* -webkit-animation: neon4 1s ease-in-out infinite alternate;
+  -moz-animation: neon4 1s ease-in-out infinite alternate;
+  animation: neon4 1s ease-in-out infinite alternate;
+  fill: #ffffff; */
+}
+
+svg #path-4 {
+  text-decoration: none;
+  -webkit-transition: all 0s;
+  -moz-transition: all 0s;
+  transition: all 0s;
+}  
+svg #path-4:hover {
+  animation: flicker 1s infinite step-end;
+  /* -webkit-animation: neon4 1s ease-in-out infinite alternate;
+  -moz-animation: neon4 1s ease-in-out infinite alternate;
+  animation: neon4 1s ease-in-out infinite alternate;
+  fill: #ffffff; */
+}
+
+svg #path-5 {
+  text-decoration: none;
+  -webkit-transition: all 0s;
+  -moz-transition: all 0s;
+  transition: all 0s;
+}  
+svg #path-5:hover {
+  animation: flicker 1s infinite step-end;
+  /* -webkit-animation: neon4 1s ease-in-out infinite alternate;
+  -moz-animation: neon4 1s ease-in-out infinite alternate;
+  animation: neon4 1s ease-in-out infinite alternate;
+  fill: #ffffff; */
+}
+
+svg #path-6 {
+  text-decoration: none;
+  -webkit-transition: all 0s;
+  -moz-transition: all 0s;
+  transition: all 0s;
+}  
+svg #path-6:hover {
+  animation: flicker 1s infinite step-end;
+  /* -webkit-animation: neon4 1s ease-in-out infinite alternate;
+  -moz-animation: neon4 1s ease-in-out infinite alternate;
+  animation: neon4 1s ease-in-out infinite alternate;
+  fill: #ffffff; */
+}
+
+svg #path-7 {
+  text-decoration: none;
+  -webkit-transition: all 0s;
+  -moz-transition: all 0s;
+  transition: all 0s;
+}  
+svg #path-7:hover {
+  animation: flicker 1s infinite step-end;
+  /* -webkit-animation: neon4 1s ease-in-out infinite alternate;
+  -moz-animation: neon4 1s ease-in-out infinite alternate;
+  animation: neon4 1s ease-in-out infinite alternate;
+  fill: #ffffff; */
+}
+
+svg #path-8 {
+  text-decoration: none;
+  -webkit-transition: all 0s;
+  -moz-transition: all 0s;
+  transition: all 0s;
+}  
+svg #path-8:hover {
+  animation: flicker 1s infinite step-end;
+  /* -webkit-animation: neon4 1s ease-in-out infinite alternate;
+  -moz-animation: neon4 1s ease-in-out infinite alternate;
+  animation: neon4 1s ease-in-out infinite alternate;
+  fill: #ffffff; */
+}
+
+svg #path-9 {
+  text-decoration: none;
+  -webkit-transition: all 0s;
+  -moz-transition: all 0s;
+  transition: all 0s;
+}  
+svg #path-9:hover {
+  animation: flicker 1s infinite step-end;
+  /* -webkit-animation: neon4 1s ease-in-out infinite alternate;
+  -moz-animation: neon4 1s ease-in-out infinite alternate;
+  animation: neon4 1s ease-in-out infinite alternate;
+  fill: #ffffff; */
+}
+
+svg #path-10 {
+  text-decoration: none;
+  -webkit-transition: all 0s;
+  -moz-transition: all 0s;
+  transition: all 0s;
+}  
+svg #path-10:hover {
+  animation: flicker 1s infinite step-end;
+  /* -webkit-animation: neon4 1s ease-in-out infinite alternate;
+  -moz-animation: neon4 1s ease-in-out infinite alternate;
+  animation: neon4 1s ease-in-out infinite alternate;
+  fill: #ffffff; */
+}
+
+svg #path-11 {
+  text-decoration: none;
+  -webkit-transition: all 0s;
+  -moz-transition: all 0s;
+  transition: all 0s;
+}  
+svg #path-11:hover {
+  animation: flicker 1s infinite step-end;
+  /* -webkit-animation: neon4 1s ease-in-out infinite alternate;
+  -moz-animation: neon4 1s ease-in-out infinite alternate;
+  animation: neon4 1s ease-in-out infinite alternate;
+  fill: #ffffff; */
+}
+
+svg #path-12 {
+  text-decoration: none;
+  -webkit-transition: all 0s;
+  -moz-transition: all 0s;
+  transition: all 0s;
+}  
+svg #path-12:hover {
+  animation: flicker 1s infinite step-end;
+  /* -webkit-animation: neon4 1s ease-in-out infinite alternate;
+  -moz-animation: neon4 1s ease-in-out infinite alternate;
+  animation: neon4 1s ease-in-out infinite alternate;
+  fill: #ffffff; */
+}
+
+svg #path-13 {
+  text-decoration: none;
+  -webkit-transition: all 0s;
+  -moz-transition: all 0s;
+  transition: all 0s;
+}  
+svg #path-13:hover {
+  animation: flicker 1s infinite step-end;
+  /* -webkit-animation: neon4 1s ease-in-out infinite alternate;
+  -moz-animation: neon4 1s ease-in-out infinite alternate;
+  animation: neon4 1s ease-in-out infinite alternate;
+  fill: #ffffff; */
+}
+
+svg #path-14 {
+  text-decoration: none;
+  -webkit-transition: all 0s;
+  -moz-transition: all 0s;
+  transition: all 0s;
+}  
+svg #path-14:hover {
+  animation: flicker 1s infinite step-end;
+  /* -webkit-animation: neon4 1s ease-in-out infinite alternate;
+  -moz-animation: neon4 1s ease-in-out infinite alternate;
+  animation: neon4 1s ease-in-out infinite alternate;
+  fill: #ffffff; */
+}
+
+svg #path-15 {
+  text-decoration: none;
+  -webkit-transition: all 0s;
+  -moz-transition: all 0s;
+  transition: all 0s;
+}  
+svg #path-15:hover {
+  animation: flicker 1s infinite step-end;
+  /* -webkit-animation: neon4 1s ease-in-out infinite alternate;
+  -moz-animation: neon4 1s ease-in-out infinite alternate;
+  animation: neon4 1s ease-in-out infinite alternate;
+  fill: #ffffff; */
+}
+
+svg #path-16 {
+  text-decoration: none;
+  -webkit-transition: all 0s;
+  -moz-transition: all 0s;
+  transition: all 0s;
+}  
+svg #path-16:hover {
+  animation: flicker 1s infinite step-end;
+  /* -webkit-animation: neon4 1s ease-in-out infinite alternate;
+  -moz-animation: neon4 1s ease-in-out infinite alternate;
+  animation: neon4 1s ease-in-out infinite alternate;
+  fill: #ffffff; */
+}
+
+svg #path-17 {
+  text-decoration: none;
+  -webkit-transition: all 0s;
+  -moz-transition: all 0s;
+  transition: all 0s;
+}  
+svg #path-17:hover {
+  animation: flicker 1s infinite step-end;
+  /* -webkit-animation: neon4 1s ease-in-out infinite alternate;
+  -moz-animation: neon4 1s ease-in-out infinite alternate;
+  animation: neon4 1s ease-in-out infinite alternate;
+  fill: #ffffff; */
+}
 
 /* Glow */
 @keyframes neon4 {
-    from {
-      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px rgb(39, 255, 197), 0 0 70px rgb(39, 255, 197), 0 0 80px rgb(39, 255, 197), 0 0 100px rgb(39, 255, 197), 0 0 150px rgb(39, 255, 197);
-    }
-    to {
-      text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px rgb(39, 255, 197), 0 0 35px rgb(39, 255, 197), 0 0 40px rgb(39, 255, 197), 0 0 50px rgb(39, 255, 197), 0 0 75px rgb(39, 255, 197);
-    }
+  from {
+   text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px rgb(39, 255, 197), 0 0 70px rgb(39, 255, 197), 0 0 80px rgb(39, 255, 197), 0 0 100px rgb(39, 255, 197), 0 0 150px rgb(39, 255, 197);
   }
-  
+  to {
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px rgb(39, 255, 197), 0 0 35px rgb(39, 255, 197), 0 0 40px rgb(39, 255, 197), 0 0 50px rgb(39, 255, 197), 0 0 75px rgb(39, 255, 197);
+  }
+}
+
 /* Glow for Webkit */
 @-webkit-keyframes neon4 {
-    from {
+  from {
       text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px rgb(39, 255, 197), 0 0 70px rgb(39, 255, 197), 0 0 80px rgb(39, 255, 197), 0 0 100px rgb(39, 255, 197), 0 0 150px rgb(39, 255, 197);
-    }
-    to {
-      text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px rgb(39, 255, 197), 0 0 35px rgb(39, 255, 197), 0 0 40px rgb(39, 255, 197), 0 0 50px rgb(39, 255, 197), 0 0 75px rgb(39, 255, 197);
-    }
-  }   
+  }
+  to {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px rgb(39, 255, 197), 0 0 35px rgb(39, 255, 197), 0 0 40px rgb(39, 255, 197), 0 0 50px rgb(39, 255, 197), 0 0 75px rgb(39, 255, 197);
+  }
+}   
 /* Glow for Mozilla */
 @-moz-keyframes neon4 {
-    from {
-      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px rgb(39, 255, 197), 0 0 70px rgb(39, 255, 197), 0 0 80px rgb(39, 255, 197), 0 0 100px rgb(39, 255, 197), 0 0 150px rgb(39, 255, 197);
-    }
-    to {
-      text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px rgb(39, 255, 197), 0 0 35px rgb(39, 255, 197), 0 0 40px rgb(39, 255, 197), 0 0 50px rgb(39, 255, 197), 0 0 75px rgb(39, 255, 197);
-    }
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px rgb(39, 255, 197), 0 0 70px rgb(39, 255, 197), 0 0 80px rgb(39, 255, 197), 0 0 100px rgb(39, 255, 197), 0 0 150px rgb(39, 255, 197);
   }
+  to {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px rgb(39, 255, 197), 0 0 35px rgb(39, 255, 197), 0 0 40px rgb(39, 255, 197), 0 0 50px rgb(39, 255, 197), 0 0 75px rgb(39, 255, 197);
+  }
+}
+
+
+/* Flicker */
+
+@keyframes flicker {
+  0%    { opacity: 1;   }
+  3%    { opacity: 0.3; }
+  6%    { opacity: 1;   }
+  7%    { opacity: 0.3; }
+  8%    { opacity: 1;   }
+  9%    { opacity: 0.3; }
+  10%   { opacity: 1;   }
+  100%  { opacity: 1;   }
+}
+
+/* svg #path-1:hover {
+  animation: flicker 1s infinite step-end;
+} */

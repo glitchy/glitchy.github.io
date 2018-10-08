@@ -3,24 +3,26 @@
 
 body {
     text-align: center;
-}
-img {
     width: 30rem;
     height: auto;
+    margin: auto;
+}
+svg {
+    width: 30rem;
+    height: auto;
+    opacity: .8;
+    margin-bottom: -1rem;
 }
 
+/* ID Selector */
 
 /* Class Selectors */
 
-.wolfhead-02 {
-    opacity: .8;
-}
-
-
 /* Descendant Selectors */
 
+
 nav a {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Georgia, 'Times New Roman', Times, serif ;
     font-size: 1.5rem;
     font-weight: bold;
     color: black;
