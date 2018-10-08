@@ -1,5 +1,9 @@
 
-/* Type-Selectors */
+/* Element-Selectors */
+
+* {
+    box-sizing:border-box;
+}
 
 body {
     text-align: center;
@@ -8,8 +12,12 @@ body {
     margin: auto;
 }
 
-
-/* ID Selector */
+.splash-nav {
+    width: 9rem;
+    line-height: 4rem;
+    margin: auto;
+    display: block;
+}
 
 /* Class Selectors */
 
@@ -20,17 +28,24 @@ body {
     margin-bottom: -2rem;
 }
 
+.wolf {
+    min-height: 0;
+}
+
+/* ID Selector */
+
 /* Descendant Selectors */
 
 
-nav a {
+.splash-nav {
     font-family: Georgia, 'Times New Roman', Times, serif ;
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: bold;
     color: black;
     opacity: 0.8;
+    display: block;
 }
-p a:hover {
+.splash-nav a:hover {
     font-size: 1.5rem;
     font-weight: bold;
     color: black;
