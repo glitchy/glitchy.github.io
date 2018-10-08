@@ -3,20 +3,22 @@
 
 body {
     text-align: center;
-    width: 30rem;
+    width: auto;
     height: auto;
     margin: auto;
 }
-svg {
-    width: 30rem;
-    height: auto;
-    opacity: .8;
-    margin-bottom: -1rem;
-}
+
 
 /* ID Selector */
 
 /* Class Selectors */
+
+.wolf {
+    width: 40rem;
+    height: auto;
+    opacity: .8;
+    margin-bottom: -2rem;
+}
 
 /* Descendant Selectors */
 
@@ -36,3 +38,33 @@ p a:hover {
 }
 
 /* Pseudo-classes */
+
+/* Media Queries */
+@media (max-width: 60rem) {
+    body {
+        text-align: center;
+        width: auto;
+        height: auto;
+        margin: auto;
+    }
+    .wolf {
+        
+        width: 73%;
+        height: auto;
+
+    }
+}
+/* @media (max-width: 25rem) {
+    body {
+        text-align: center;
+        width: auto;
+        height: auto;
+        margin: auto;
+    }
+    .wolf {
+        
+        width: 20rem;
+        height: auto;
+
+    }
+} */
