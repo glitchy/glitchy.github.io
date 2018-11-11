@@ -1,10 +1,11 @@
 
-/* Element-Selectors */
+/* Universal-Selectors */
 
 * {
     box-sizing:border-box;
 }
 
+/* Element-Selectors */
 body {
     text-align: center;
     width: auto;
@@ -12,50 +13,36 @@ body {
     margin: auto;
 }
 
+/* Class Selectors */
 .splash-nav {
     width: 9rem;
     line-height: 4rem;
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+    font-size: 2rem;
+    font-weight: bold;
+    color: black;
+    opacity: 0.8;
     margin: auto;
     display: block;
 }
-
-/* Class Selectors */
-
 .wolf {
-    width: 40rem;
+    width: 20rem;
     height: auto;
     opacity: .8;
-    margin-bottom: -2rem;
-}
-
-.wolf {
-    min-height: 0;
+    margin-bottom: -3rem;
+    margin-top: -3rem;
 }
 
 /* ID Selector */
 
 /* Descendant Selectors */
 
-
-.splash-nav {
-    font-family: Georgia, 'Times New Roman', Times, serif ;
-    font-size: 2rem;
-    font-weight: bold;
-    color: black;
-    opacity: 0.8;
-    display: block;
-}
-.splash-nav a:hover {
-    font-size: 1.5rem;
-    font-weight: bold;
-    color: black;
-    opacity: 0.8;
-}
-
 /* Pseudo-classes */
 
 /* Media Queries */
-@media (max-width: 60rem) {
+
+@media only screen and (min-width: 778px),
+        only screen and (min-width:700px) and (orientation: landscape) {
     body {
         text-align: center;
         width: auto;
@@ -63,23 +50,14 @@ body {
         margin: auto;
     }
     .wolf {
-        
-        width: 73%;
+        width: 30rem;
         height: auto;
-
     }
 }
-/* @media (max-width: 25rem) {
-    body {
-        text-align: center;
-        width: auto;
-        height: auto;
-        margin: auto;
-    }
-    .wolf {
-        
-        width: 20rem;
-        height: auto;
 
+@media only screen and (min-width:1140px) {
+    .wolf {
+        width: 35rem;
+        height: auto;
     }
-} */
+}
