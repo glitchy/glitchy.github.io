@@ -55,6 +55,23 @@ img {
     border: 1px solid white;
     width: 100%
 }
+/* ID Selectors */
+#flashMessage {
+    color: white;
+    background-color: #64ce83;
+    padding: 15px;
+    border-radius: 5px;
+    display: block;
+    width: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-right: auto;
+    margin-left: auto;
+    /* font-weight: bold; */
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
 /* Styling of Sectional Content */
 .section-content {
     background-color: whitesmoke;
@@ -86,6 +103,15 @@ button {
     box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
     /* margin-bottom: 10px; */
     margin: 0 auto;
+  }
+  .button {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+  }
+  button:hover {
+      background-color: aqua;
+      border-color: aqua;
+      color: black;
   }
   input[type="email"] {
     background: rgba(255,255,255,0.1);
