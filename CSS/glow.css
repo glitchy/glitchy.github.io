@@ -285,7 +285,7 @@ svg #path-17:hover {
 }
 
 /*-------- Enter Glow ---------*/
-/* nav a {
+nav a {
   text-decoration: none;
   -webkit-transition: all 0.15s;
   -moz-transition: all 0.15s;
@@ -296,7 +296,7 @@ nav a:hover {
   -moz-animation: neon4 1s ease-in-out infinite alternate;
   animation: neon4 1s ease-in-out infinite alternate;
   color: #ffffff;
-} */
+}
 
 /* Glow */
 @keyframes neon4 {

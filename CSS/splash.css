@@ -24,6 +24,7 @@ body {
     opacity: 0.8;
     margin: auto;
     display: block;
+    text-decoration: none;
 }
 .wolf {
     width: 20rem;
@@ -31,6 +32,7 @@ body {
     opacity: .8;
     margin-bottom: -3rem;
     margin-top: -3rem;
+    /* border: 1px solid rgb(0, 255, 251); */
 }
 
 /* ID Selector */
