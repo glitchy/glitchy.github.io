@@ -51,7 +51,9 @@ img {
     margin-bottom: 2rem;
 }
 .main-container {
-    
+    background-color: white;
+    border: 1px solid white;
+    width: 100%
 }
 /* Styling of Sectional Content */
 .section-content {
@@ -61,7 +63,7 @@ img {
     padding-right: 2rem;
     padding-left: 2rem;
     margin-bottom: 2rem;
-    width: 100%;
+    /* width: 100%; */
     margin-left: auto;
     margin-right: auto;
     margin-top: 2rem;
@@ -113,7 +115,6 @@ p a:hover {
     padding-right: 1rem;
     font-weight: bold;
     opacity: .8;
-    /* border:1px solid red; */
 }
 .bottom-nav {
     padding-left: 1rem;
@@ -159,9 +160,9 @@ footer p span {
 /* Navigation + stroke animation */
 
 nav ul {
-    width: 60%;
+    width: auto;
     margin: 0 auto;
-    background: #fff;
+    background: #transparent;
     list-style: none;
     text-align: center;
   }
@@ -203,7 +204,7 @@ nav.stroke ul li a:after {
   height: 1px;
 }
 nav.stroke ul li a:hover:after {
-  width: 90%;
+  width: 30%;
 }
 
 
@@ -212,25 +213,43 @@ nav.stroke ul li a:hover:after {
 @media only screen and (min-width: 480px) {
     .wolfhead-02 {
         display: none;
-        /* border: 1px solid red; */
     } 
     nav {
-        display: inline-block;
         float: left;
+        background-color: transparent;
     }
     nav ul {
-        float: left;
-        vertical-align: left;
-        width: 30%;
+        display: inline-block;
     }
+    nav ul li {
+        vertical-align: left;
+    }
+    nav.stroke ul li a:hover:after {
+        width: 75%;
+      }
     header {
         margin-top: 2rem;
         border-bottom: 5px solid #dedede;
+        /* background-image: url(../img/wolfhead-02.svg);
+        background-repeat: no-repeat;  */
     }
+    header::after {
+        content: "";
+        background-image: url(../img/wolfhead-02.svg);
+        background-repeat: no-repeat; 
+        opacity: 0.1;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        width: 60rem;
+        position: absolute;
+        z-index: -1;   
+      }
+
     .footer-nav {
         float: none;
     }
-
     /* Clearfix */
     .clearfix::after {
         content: "";
@@ -238,7 +257,6 @@ nav.stroke ul li a:hover:after {
         clear: both;
     }
 }
-
 
 @media only screen and (min-width: 778px),
         only screen and (min-width:700px) and (orientation: landscape) {
