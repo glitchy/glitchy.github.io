@@ -59,17 +59,48 @@ img {
 .section-content {
     background-color: whitesmoke;
     padding-top: 0.2rem;
-    padding-bottom: 5rem;
+    padding-bottom: 3rem;
     padding-right: 2rem;
     padding-left: 2rem;
     margin-bottom: 2rem;
-    /* width: 100%; */
     margin-left: auto;
     margin-right: auto;
     margin-top: 2rem;
     opacity: 0.8;
     box-shadow: 0px 5px 0px #dedede;
 }
+
+/* Subscription Button and Input Field, had help from the treehouse course creating button, altered and customized for my site */
+button {
+    display: block;
+    padding: 19px 39px 18px 39px;
+    color: #FFF;
+    background-color: #4bc970;
+    font-size: 18px;
+    text-align: center;
+    font-style: normal;
+    border-radius: 5px;
+    width: 10rem;
+    border: 1px solid #3ac162;
+    border-width: 1px 1px 3px;
+    box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
+    /* margin-bottom: 10px; */
+    margin: 0 auto;
+  }
+  input[type="email"] {
+    background: rgba(255,255,255,0.1);
+    border: none;
+    font-size: 16px;
+    height: auto;
+    margin: 0 auto;
+    outline: 0;
+    padding: 15px;
+    width: auto;
+    background-color: white;
+    color: #8a97a0;
+    box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+    margin-bottom: 30px;
+  }
 
 /* Style for Pixelated Base Camp Statement */
 .base-camp {
