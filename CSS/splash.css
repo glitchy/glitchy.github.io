@@ -18,7 +18,7 @@ body {
     width: 9rem;
     line-height: 4rem;
     font-family: Georgia, 'Times New Roman', Times, serif ;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: bold;
     color: black;
     opacity: 0.8;
@@ -27,7 +27,7 @@ body {
     text-decoration: none;
 }
 .wolf {
-    width: 17rem;
+    width: 15rem;
     height: auto;
     opacity: .8;
     /* margin-bottom: -3rem; */
@@ -43,8 +43,7 @@ body {
 
 /* Media Queries */
 
-@media only screen and (min-width: 778px),
-        only screen and (min-width:700px) and (orientation: landscape) {
+@media only screen and (min-width: 480px) {
     body {
         text-align: center;
         width: auto;
@@ -52,14 +51,22 @@ body {
         margin: auto;
     }
     .wolf {
-        width: 30rem;
+        width: 20rem;
+        height: auto;
+    }
+}
+
+@media only screen and (min-width: 778px),
+        only screen and (min-width:700px) and (orientation: landscape) {
+    .wolf {
+        width: 25rem;
         height: auto;
     }
 }
 
 @media only screen and (min-width:1140px) {
     .wolf {
-        width: 35rem;
+        width: 30rem;
         height: auto;
     }
 }
