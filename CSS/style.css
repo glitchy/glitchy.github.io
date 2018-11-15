@@ -1,5 +1,3 @@
-
-
 html {
     font-size: 1rem;
     line-height: 1.4;
@@ -17,15 +15,16 @@ body {
     font-size: 1rem;
     font-family:'Times New Roman', Times, serif;
     line-height: 1.5;
-
 }
-
+header {
+    border-bottom: 5px solid #dedede;
+}
 h2 {
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: black;
 }
 h3 {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     color: black;
 }
 p {
@@ -34,10 +33,13 @@ p {
     background-color: transparent;
     text-align: center;
 }
-
 img {
-    width: 30%;
+    width: 10rem;
     height: auto;
+    margin: auto;
+}
+.figcap {
+    display: none;
 }
 
 /* Class Selectors */
@@ -45,66 +47,199 @@ img {
     width:95%;
     margin: 0 auto;
 }
-.background {
-    background-image: ..img/wolfhead-02.svg;
-    margin-top: 2rem;
-}
 .header-container {
-    border-bottom: 1.5rem solid transparent;
-    margin-bottom: 1rem;
-    margin-top: 3rem;
+    margin-bottom: 2rem;
 }
 .main-container {
-    
+    background-color: white;
+    border: 1px solid white;
+    width: 100%
 }
-.primary-content {
-    /* text-align: center; */
+
+.title {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-weight: bold;
+    display: none;
 }
+
+.main-nav {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-weight: bold;
+    opacity: .8;
+}
+.bottom-nav {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-weight: bold;
+    display: block;
+}
+/* ID Selectors */
+#flashMessage {
+    color: white;
+    background-color: rgb(3, 216, 177);
+    border-color: rgb(0, 186, 152);
+    padding: 15px;
+    border-radius: 5px;
+    display: block;
+    width: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-right: auto;
+    margin-left: auto;
+    /* font-weight: bold; */
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+/* Styling of Sectional Content */
 .section-content {
     background-color: whitesmoke;
     padding-top: 0.2rem;
     padding-bottom: 3rem;
     padding-right: 2rem;
     padding-left: 2rem;
-    margin-bottom: 10rem;
-    width: 80%;
+    margin-bottom: 2rem;
     margin-left: auto;
     margin-right: auto;
     margin-top: 2rem;
     opacity: 0.8;
+    box-shadow: 0px 5px 0px #dedede;
 }
-.main-footer {
-    padding-top: 0.625rem;
-    padding-bottom: 3.75rem;
-    border-top: solid 0.125rem lightgrey;
-}
-.confirm-selection {
-    line-height: 1.2rem;
-    font-size: 1.5rem;
+
+/* Subscription Button and Input Field, had help from the treehouse course creating button, altered and customized for my site */
+button {
+    display: block;
+    padding: 14px 34px 13px 34px;
+    color: black;
+    background-color: rgb(0, 186, 152);
+    font-size: 18px;
+    text-align: center;
+    font-style: normal;
+    border-radius: 5px;
+    width: 10rem;
+    border: 1px solid rgb(3, 216, 177);
+    border-width: 1px 1px 3px;
+    box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
+    /* margin-bottom: 10px; */
+    margin: 0 auto;
+  }
+  .button {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+  }
+  button:hover {
+      background-color: rgb(3, 216, 177);
+      border-color: rgb(0, 186, 152);
+      color: white;
+  }
+  input[type="email"] {
+    background: rgba(255,255,255,0.1);
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    height: auto;
+    margin: 0 auto;
+    outline: 0;
+    padding: 15px;
+    width: auto;
+    background-color: white;
+    color: #8a97a0;
+    box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+    margin-bottom: 30px;
+  }
+
+/* Style for Pixelated Base Camp Statement */
+.base-camp {
+    line-height: 1.5rem;
+    font-size: 1.rem;
     color: black;
     margin-top: 6rem;
     margin-bottom: 6rem;
     font-family: 'Courier New', Courier, monospace;
+    display: none;
+    letter-spacing: 0.2rem;
 }
+p a:hover {
+    font-weight: bold;
+}
+div p span {
+    color: rgb(0, 186, 152);
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+header p span:hover {
+    font-weight: bold;
+    -webkit-animation: neon4 1s ease-in-out infinite alternate;
+    -moz-animation: neon4 1s ease-in-out infinite alternate;
+    animation: neon4 1s ease-in-out infinite alternate;
+    color: #ffffff;
+}
+nav a {
+    text-decoration: none;
+    -webkit-transition: all 0.15s;
+    -moz-transition: all 0.15s;
+    transition: all 0.15s;
+  }  
+  
+  /* Glow */
+  @keyframes neon4 {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px rgb(48, 244, 201), 0 0 70px rgb(48, 244, 201), 0 0 80px rgb(48, 244, 201), 0 0 100px rgb(48, 244, 201), 0 0 150px rgb(48, 244, 201);
+    }
+    to {
+      text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px rgb(48, 244, 201), 0 0 35px rgb(48, 244, 201), 0 0 40px rgb(48, 244, 201), 0 0 50px rgb(48, 244, 201), 0 0 75px rgb(48, 244, 201);
+    }
+  }
+  
+  /* Glow for Webkit */
+  @-webkit-keyframes neon4 {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px rgb(48, 244, 201), 0 0 70px rgb(48, 244, 201), 0 0 80px rgb(48, 244, 201), 0 0 100px rgb(48, 244, 201), 0 0 150px rgb(48, 244, 201);
+    }
+    to {
+      text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px rgb(48, 244, 201), 0 0 35px rgb(48, 244, 201), 0 0 40px rgb(48, 244, 201), 0 0 50px rgb(48, 244, 201), 0 0 75px rgb(48, 244, 201);
+    }
+  }   
+  /* Glow for Mozilla */
+  @-moz-keyframes neon4 {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px rgb(48, 244, 201), 0 0 70px rgb(48, 244, 201), 0 0 80px rgb(48, 244, 201), 0 0 100px rgb(48, 244, 201), 0 0 150px rgb(48, 244, 201);
+    }
+    to {
+      text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px rgb(48, 244, 201), 0 0 35px rgb(48, 244, 201), 0 0 40px rgb(48, 244, 201), 0 0 50px rgb(48, 244, 201), 0 0 75px rgb(48, 244, 201);
+    }
+  }
+
+/* Wolfhead Logo */
 .wolfhead-02 {
     opacity: .8;
-    fill: rgb(33, 96, 33);
+    fill: rgb(0, 186, 152);
+    width: 15rem;
+    height: auto;
+    display: block;
+    margin: auto;
 }
+
 .title {
     padding-left: 1rem;
     padding-right: 1rem;
     font-weight: bold;
+    display: none;
 }
+
 .main-nav {
     padding-left: 1rem;
     padding-right: 1rem;
     font-weight: bold;
-    margin-top: 2rem;
+    opacity: .8;
 }
 .bottom-nav {
     padding-left: 1rem;
     padding-right: 1rem;
     font-weight: bold;
+    display: block;
 }
 
 /* Descendant Selectors */
@@ -119,12 +254,11 @@ nav ul {
     list-style-type: none;
 }
 .main-nav li {
-    margin-bottom: 1rem;
+    /* margin-bottom: 1rem; */
 }
 .main-nav a {
     display: border-box;
-    margin-bottom: 0.625rem;
-    padding: 1rem ;
+    padding: 0.5rem ;
     text-align: center;
     text-decoration: none;
     font-weight: bold;
@@ -132,66 +266,35 @@ nav ul {
     color:black;
     background: transparent;
 }
-div p span {
-    color: rgb(21, 100, 74);
-    font-weight: bold;
-    font-family: 'Courier New', Courier, monospace;
-}
-p a:hover {
-    font-size: 1.5rem;
-    font-weight: bold;
-}
 footer p span {
-    color: rgb(21, 100, 74);
+    color: rgb(0, 186, 152);
     font-weight: bold;
     font-family: 'Courier New', Courier, monospace;
     font-size: 1.1rem;
 }
-
-/* Pseudo-classes */
-
-/* nav a:hover {
-    text-decoration: underline;
-    text-decoration-color: rgb(21, 100, 74);
-    color: rgb(21, 100, 74);
-} */
-/* nav a:visited {
-    color: black;
-} */
-
-/* nav a:active {
-    color: rgb(173, 218, 230);
-    border: 0.15rem solid rgb(173, 218, 230);
-} */
-
-
-
-
+.main-footer {
+    width: 80%;
+}
 
 /* Navigation + stroke animation */
-
-nav {
-    width: 80%;
-    margin: 0 auto;
-    background: #fff;
-    padding: 50px 0;
-    box-shadow: 0px 5px 0px #dedede;
-  }
 nav ul {
+    width: auto;
+    margin: 0 auto;
+    background: #transparent;
     list-style: none;
     text-align: center;
   }
-  nav ul li {
-    display: inline-block;
+nav ul li {
+    display: block;
   }
 nav ul li a {
     display: block;
-    padding: 15px;
+    padding: 1rem;
     text-decoration: none;
     color: #aaa;
     font-weight: 800;
     text-transform: uppercase;
-    margin: 0 10px;
+    margin: 0 0.625rem;
   }
 nav ul li a,
 nav ul li a:after,
@@ -200,7 +303,7 @@ nav ul li a:before {
 }
 
 nav ul li a:hover {
-    color: #555;
+    color: rgb(0, 186, 152);
   }
 /* stroke */
 nav.stroke ul li a {
@@ -215,104 +318,57 @@ nav.stroke ul li a:after {
   width: 0%;
   content: '.';
   color: transparent;
-  background: #aaa;
+  background: rgb(0, 186, 152);
   height: 1px;
 }
 nav.stroke ul li a:hover:after {
-  width: 100%;
+  width: 30%;
 }
+
 
 /* Media Queries */
 
 @media only screen and (min-width: 480px) {
-    .title {
+    .wolfhead-02 {
+        display: none;
+    } 
+    nav {
         float: left;
+        background-color: transparent;
     }
-    .main-nav {
-        float: right;
+    nav ul {
+        display: inline-block;
     }
-    .main-nav li {
-        float: left;
+    nav ul li {
+        vertical-align: left;
     }
-    .clearfix::after {
+    nav.stroke ul li a:hover:after {
+        width: 75%;
+      }
+    header {
+        margin-top: 2rem;
+        border-bottom: 5px solid #dedede;
+        /* background-image: url(../img/wolfhead-02.svg);
+        background-repeat: no-repeat;  */
+    }
+    header::after {
         content: "";
-        display: table;
-        clear: both;
-    }
-}
-
-@media only screen and (min-width: 768px),
-        only screen and (min-width:700px) and (orientation: landscape) {
-    /* Navigation + stroke animation */
-
-nav {
-    width: 80%;
-    margin: 0 auto;
-    background: #fff;
-    padding: 50px 0;
-    box-shadow: 0px 5px 0px #dedede;
-  }
-nav ul {
-    list-style: none;
-    text-align: center;
-  }
-  nav ul li {
-    display: inline-block;
-  }
-nav ul li a {
-    display: block;
-    padding: 15px;
-    text-decoration: none;
-    color: #aaa;
-    font-weight: 800;
-    text-transform: uppercase;
-    margin: 0 10px;
-  }
-nav ul li a,
-nav ul li a:after,
-nav ul li a:before {
-  transition: all .5s;
-}
-
-nav ul li a:hover {
-    color: #555;
-  }
-/* stroke */
-nav.stroke ul li a {
-  position: relative;
-}
-nav.stroke ul li a:after {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  margin: auto;
-  width: 0%;
-  content: '.';
-  color: transparent;
-  background: #aaa;
-  height: 1px;
-}
-nav.stroke ul li a:hover:after {
-  width: 100%;
-}
-    
-            /* .wrapper {
+        background-image: url(../img/wolfhead-02.svg);
+        background-repeat: no-repeat; 
+        opacity: 0.1;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
         width: 60rem;
-        margin: 0 auto;
-    } */
-    .title {
-        float: left;
-        font-size: 1.5rem;
+        position: absolute;
+        z-index: -1;   
+      }
+
+    .footer-nav {
+        float: none;
     }
-    .main-nav {
-        float: left;
-    }
-    .main-nav li {
-        float: right;
-        font-size: 1.5rem;
-        padding: 1.56rem 1%;
-    }
+    /* Clearfix */
     .clearfix::after {
         content: "";
         display: table;
@@ -320,24 +376,38 @@ nav.stroke ul li a:hover:after {
     }
 }
 
-@media only screen and (min-width:1140px) {
-    .wrapper {
-        width: 64.125rem;
-        margin: 0 auto;
+@media only screen and (min-width: 778px),
+        only screen and (min-width:700px) and (orientation: landscape) {
+    .base-camp {
+        display: block;
+        font-size: 1.2rem;
     }
-    .title {
-        float: left;
+    nav {
+        float: none;
+        display: block;
     }
-    .main-nav {
-        float: right;
+    nav ul {
+        float: none;
+        width: 90%;
+        text-align: left;
     }
-    .main-nav li {
-        float: left;
-        padding-left: 1rem;
-        padding-right: 1rem;
-        margin-left: 1rem;
-        font-weight: bold;
+    nav ul li {
+        display: inline-block;
+        
     }
+    .section-content {
+        width: 80%;
+    }
+
+    /* Clearfix */
+    .clearfix::after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+ }
+ @media only screen and (min-width:1140px) {
+ 
     /* Clearfix */
     .clearfix::after {
         content: "";

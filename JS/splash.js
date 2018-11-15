@@ -1,7 +1,12 @@
+// ATTENTION!: Main JS script for project is linked on index2.html
+
+
+// Ignore this code, trying to activate prior non-sibling element.. its hard.
 $('#splash-nav').hover(function() {
   $('#target').addClass("hvr-bob");
 })
 
+// Trying to disable sticky hover and click effects on touch screens!
 function hasTouch() {
   return 'ontouchstart' in document.documentElement
          || navigator.maxTouchPoints > 0
@@ -24,12 +29,3 @@ if (hasTouch()) { // remove all :hover stylesheets
       }
   } catch (ex) {}
 }
-
-// $(document).ready(function() {     
-//     $('#second, #third').hover(function(){     
-//         $('#first').addClass('blue');    
-//     },     
-//     function(){    
-//         $('#first').removeClass('blue');     
-//     });
-// }); 
