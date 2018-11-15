@@ -2,9 +2,9 @@
 
 
 // Ignore this code, trying to activate prior non-sibling element.. its hard.
-$('#splash-nav').hover(function() {
-  $('#target').addClass("hvr-bob");
-})
+// $('#splash-nav').hover(function() {
+//   $('#target').addClass("hvr-bob");
+// })
 
 // Trying to disable sticky hover and click effects on touch screens!
 function hasTouch() {
