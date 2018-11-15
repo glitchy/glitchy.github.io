@@ -242,7 +242,7 @@ svg #path-17:hover {
   fill: #ffffff; */
 }
 
-/* Glow */
+/* Glow - Thanks to Felix Rilling at Codepen! https://codepen.io/FelixRilling/pen/qzfoc  */
 @keyframes neon4 {
   from {
    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px rgb(39, 255, 197), 0 0 70px rgb(39, 255, 197), 0 0 80px rgb(39, 255, 197), 0 0 100px rgb(39, 255, 197), 0 0 150px rgb(39, 255, 197);
