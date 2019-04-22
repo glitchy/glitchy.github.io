@@ -38,6 +38,9 @@ img {
     height: auto;
     margin: auto;
 }
+.p-content{
+    text-align: left;
+}
 .figcap {
     display: none;
 }
