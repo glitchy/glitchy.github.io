@@ -272,6 +272,7 @@ nav a {
 .link {
     font-weight: bold;
     color: rgb(2, 135, 110);
+    font-family:'Times New Roman', Times, serif;
 }
 .link:hover {
     color: rgb(0, 186, 152);
