@@ -170,6 +170,10 @@ button {
       background-color: rgb(3, 216, 177);
       border-color: rgb(0, 186, 152);
       color: white;
+      -webkit-animation: neon4 1s ease-in-out infinite alternate;
+      -moz-animation: neon4 1s ease-in-out infinite alternate;
+      animation: neon4 1s ease-in-out infinite alternate;
+  color: #ffffff;
   }
   input[type="email"] {
     background: rgba(255,255,255,0.1);
