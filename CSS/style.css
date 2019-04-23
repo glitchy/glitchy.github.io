@@ -81,13 +81,19 @@ img {
 .languages {
     padding-left: 1rem;
     padding-right: 1rem;
-    height: 6rem;
+    height: 5rem;
     width: auto;
 }
 .languages2 {
     padding-left: 1rem;
     padding-right: 1rem;
-    height: 5rem;
+    height: 4rem;
+    width: auto;
+}
+.languages3 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    height: 2rem;
     width: auto;
 }
 
