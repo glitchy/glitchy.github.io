@@ -257,9 +257,15 @@ nav a {
     display: block;
     color: rgb(0, 186, 152);
 }
-
+.bottom-nav:hover {
+    color: rgb(2, 135, 110);
+}
 .link {
+    font-weight: bold;
     color: rgb(0, 186, 152);
+}
+.link:hover {
+    color: rgb(2, 135, 110);
 }
 
 /* Descendant Selectors */
