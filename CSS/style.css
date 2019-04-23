@@ -255,6 +255,11 @@ nav a {
     padding-right: 1rem;
     font-weight: bold;
     display: block;
+    color: rgb(0, 186, 152);
+}
+
+.link {
+    color: rgb(0, 186, 152);
 }
 
 /* Descendant Selectors */
