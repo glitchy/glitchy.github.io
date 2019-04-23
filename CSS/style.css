@@ -78,6 +78,19 @@ img {
     font-weight: bold;
     display: block;
 }
+.languages {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    height: 6rem;
+    width: auto;
+}
+.languages2 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    height: 5rem;
+    width: auto;
+}
+
 /* ID Selectors */
 #flashMessage {
     color: white;
@@ -435,9 +448,9 @@ nav.stroke ul li a:hover:after {
  @media only screen and (min-width:1140px) {
  
     /* Clearfix */
-    .clearfix::after {
+    /* .clearfix::after {
         content: "";
         display: table;
         clear: both;
-    }
+    } */
 }
