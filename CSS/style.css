@@ -96,6 +96,9 @@ img {
     height: 2rem;
     width: auto;
 }
+.languages3:hover {
+    opacity: .5;
+}
 
 /* ID Selectors */
 #flashMessage {
