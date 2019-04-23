@@ -263,22 +263,12 @@ nav a {
     font-weight: bold;
     opacity: .8;
 }
-.bottom-nav {
-    padding-left: 1rem;
-    padding-right: 1rem;
-    font-weight: bold;
-    display: block;
-    color: rgb(0, 186, 152);
-}
-.bottom-nav:hover {
-    color: rgb(2, 135, 110);
-}
 .link {
     font-weight: bold;
-    color: rgb(0, 186, 152);
+    color: rgb(2, 135, 110);
 }
 .link:hover {
-    color: rgb(2, 135, 110);
+    color: rgb(0, 186, 152);
 }
 
 /* Descendant Selectors */
