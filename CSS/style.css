@@ -284,6 +284,9 @@ nav a {
 .link:hover {
     color: rgb(0, 186, 152);
 }
+.durin {
+    display: none;
+}
 
 /* Descendant Selectors */
 header h1 {
@@ -375,6 +378,9 @@ nav.stroke ul li a:hover:after {
     .wolfhead-02 {
         display: none;
     } 
+    .durin {
+        display: inline-block;
+    }
     nav {
         float: left;
         background-color: transparent;
