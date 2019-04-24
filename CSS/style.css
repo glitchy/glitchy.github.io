@@ -194,7 +194,7 @@ button {
 /* Style for Pixelated Base Camp Statement */
 .base-camp {
     line-height: 1.5rem;
-    font-size: 1.rem;
+    font-size: 1rem;
     color: black;
     margin-top: 6rem;
     margin-bottom: 6rem;
@@ -287,13 +287,12 @@ nav a {
 .durin {
     display: none;
 }
-.durin-effect {
-    text-decoration: none;
-    -webkit-transition: all 0.15s;
-    -moz-transition: all 0.15s;
-    transition: all 0.15s;
+.hidden-door {
+    opacity: 0;
+    font-size: 5rem;
 }
-.durin-effect:hover {
+.hidden-door:hover {
+    opacity: 1;
     font-weight: bold;
     -webkit-animation: neon4 1s ease-in-out infinite alternate;
     -moz-animation: neon4 1s ease-in-out infinite alternate;
