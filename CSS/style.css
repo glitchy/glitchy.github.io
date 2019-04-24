@@ -298,6 +298,11 @@ nav a {
     -moz-animation: neon4 1s ease-in-out infinite alternate;
     animation: neon4 1s ease-in-out infinite alternate;
     color: #ffffff;
+    -webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
 }
 
 /* Descendant Selectors */
