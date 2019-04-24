@@ -379,6 +379,9 @@ nav.stroke ul li a:hover:after {
     .wolfhead-02 {
         display: none;
     } 
+    .durin {
+        display: inline-block;
+    }
     nav {
         float: left;
         background-color: transparent;
@@ -428,9 +431,6 @@ nav.stroke ul li a:hover:after {
     .base-camp {
         display: block;
         font-size: 1.2rem;
-    }
-    .durin {
-        display: inline-block;
     }
     nav {
         float: none;
