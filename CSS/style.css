@@ -78,6 +78,12 @@ img {
     font-weight: bold;
     display: block;
 }
+.certifications {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    height: 8rem;
+    width: auto;
+}
 .languages {
     padding-left: 1rem;
     padding-right: 1rem;
