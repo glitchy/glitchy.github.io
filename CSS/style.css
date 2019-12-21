@@ -40,7 +40,7 @@ img {
 }
 .p-content{
     text-align: left;
-    margin-left: 1rem;
+    /* margin-left: 1rem; */
 }
 .figcap {
     display: none;
@@ -79,9 +79,27 @@ img {
     font-weight: bold;
     display: block;
 }
-.certifications {
-    padding-left: 1rem;
-    padding-right: 1rem;
+.cert-div {
+    float: left;
+}
+.certification-head {
+    /* vertical-align: left; */
+    height: 2rem;
+    width: auto;
+    margin-right: 2rem;
+    margin-left: 2rem;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+}
+.aws-certifications {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    height: 8rem;
+    width: auto;
+}
+.py-certifications {
+    margin-left: 2rem;
+    margin-right: 2rem;
     height: 8rem;
     width: auto;
 }
