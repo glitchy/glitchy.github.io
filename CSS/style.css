@@ -95,7 +95,7 @@ img {
     width: auto;
     margin-right: 2rem;
     margin-left: 2rem;
-    margin-bottom: 3rem;
+    margin-bottom: 4rem;
     margin-top: 3rem;
 }
 .certification-head-2 {
@@ -109,7 +109,25 @@ img {
 }
 .certification-head-3 {
     /* vertical-align: left; */
-    height: 6rem;
+    height: 7rem;
+    width: auto;
+    margin-right: 2rem;
+    margin-left: 2rem;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+}
+.certification-head-4 {
+    /* vertical-align: left; */
+    height: 2rem;
+    width: auto;
+    margin-right: 2rem;
+    margin-left: 2rem;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+}
+.certification-head-5 {
+    /* vertical-align: left; */
+    height: 3.8rem;
     width: auto;
     margin-right: 2rem;
     margin-left: 2rem;
