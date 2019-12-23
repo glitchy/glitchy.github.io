@@ -80,7 +80,7 @@ img {
     display: block;
 }
 .cert-div-head {
-    float: left;
+
 }
 .cert-div-1 {
     margin-bottom: 1rem;
@@ -90,16 +90,14 @@ img {
     margin-bottom: 1rem;
 }
 .certification-head-1 {
-    /* vertical-align: left; */
     height: 2rem;
     width: auto;
     margin-right: 2rem;
     margin-left: 2rem;
-    margin-bottom: 4rem;
-    margin-top: 3rem;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
 }
 .certification-head-2 {
-    /* vertical-align: left; */
     height: 3rem;
     width: auto;
     margin-right: 2rem;
@@ -108,7 +106,6 @@ img {
     margin-top: 3rem;
 }
 .certification-head-3 {
-    /* vertical-align: left; */
     height: 7rem;
     width: auto;
     margin-right: 2rem;
@@ -117,7 +114,6 @@ img {
     margin-top: 3rem;
 }
 .certification-head-4 {
-    /* vertical-align: left; */
     height: 2rem;
     width: auto;
     margin-right: 2rem;
@@ -126,7 +122,6 @@ img {
     margin-top: 3rem;
 }
 .certification-head-5 {
-    /* vertical-align: left; */
     height: 3.8rem;
     width: auto;
     margin-right: 2rem;
@@ -142,7 +137,7 @@ img {
     width: auto;
 }
 .py-certifications {
-    float: left;
+    /* float: left; */
     margin-left: .5rem;
     margin-right: .5rem;
     height: 8rem;
