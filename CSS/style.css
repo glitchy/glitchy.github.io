@@ -80,14 +80,7 @@ img {
     display: block;
 }
 .cert-div-head {
-
-}
-.cert-div-1 {
-    margin-bottom: 1rem;
-}
-.cert-div-2 {
-    margin-top: 5rem;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
 }
 .certification-head-1 {
     height: 2rem;
@@ -102,35 +95,34 @@ img {
     width: auto;
     margin-right: 2rem;
     margin-left: 2rem;
-    margin-bottom: 3rem;
-    margin-top: 3rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
 }
 .certification-head-3 {
-    height: 7rem;
+    height: 8rem;
     width: auto;
     margin-right: 2rem;
     margin-left: 2rem;
-    margin-bottom: 3rem;
-    margin-top: 3rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
 }
 .certification-head-4 {
     height: 2rem;
     width: auto;
     margin-right: 2rem;
     margin-left: 2rem;
-    margin-bottom: 3rem;
-    margin-top: 3rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
 }
 .certification-head-5 {
     height: 3.8rem;
     width: auto;
     margin-right: 2rem;
     margin-left: 2rem;
-    margin-bottom: 3rem;
-    margin-top: 3rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
 }
 .aws-certifications {
-    float: left;
     margin-left: .5rem;
     margin-right: .5rem;
     height: 8rem;
