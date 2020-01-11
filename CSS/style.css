@@ -410,6 +410,7 @@ footer p span {
 }
 .main-footer {
     width: 80%;
+    border-top: 5px solid #dedede;
 }
 
 /* Navigation + stroke animation */
