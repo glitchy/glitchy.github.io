@@ -79,32 +79,41 @@ img {
     font-weight: bold;
     display: block;
 }
-.cert-div-head {
+.cert-div-head-1 {
     margin-bottom: 2rem;
+    /* display: inline-block; */
+}
+.cert-div-head-2 {
+    margin-bottom: 2rem;
+    /* display: inline-block; */
+}
+.cert-div-head-3 {
+    margin-bottom: 2rem;
+    /* display: inline-block; */
 }
 .certification-head-1 {
     height: 2rem;
     width: auto;
     margin-right: 2rem;
     margin-left: 2rem;
-    margin-bottom: 1rem;
+    margin-bottom: 1.25rem;
     margin-top: 2rem;
 }
 .certification-head-2 {
-    height: 3rem;
+    height: 2.5rem;
     width: auto;
     margin-right: 2rem;
     margin-left: 2rem;
-    margin-bottom: 1rem;
+    margin-bottom: .75rem;
     margin-top: 1rem;
 }
 .certification-head-3 {
-    height: 8rem;
+    height: 4.2rem;
     width: auto;
     margin-right: 2rem;
     margin-left: 2rem;
-    margin-bottom: 1rem;
-    margin-top: 1rem;
+    margin-bottom: .75rem;
+    margin-top: .75rem;
 }
 .certification-head-4 {
     height: 2rem;
@@ -123,15 +132,21 @@ img {
     margin-top: 1rem;
 }
 .aws-certifications {
-    margin-left: .5rem;
-    margin-right: .5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
     height: 8rem;
+    width: auto;
+}
+.gcp-certifications {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    height: 7.5rem;
     width: auto;
 }
 .py-certifications {
     /* float: left; */
-    margin-left: .5rem;
-    margin-right: .5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
     height: 8rem;
     width: auto;
 }
