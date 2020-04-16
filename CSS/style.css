@@ -1,5 +1,5 @@
 html {
-    font-size: 1.2rem;
+    font-size: 1rem;
     line-height: 1.4;
     color: black;
     box-sizing: border-box;
@@ -12,7 +12,7 @@ html {
 /* Type-Selectors */
 body {
     text-align: center;
-    font-size: 1.1rem;
+    font-size: 1rem;
     font-family:'Times New Roman', Times, serif;
     line-height: 1.5;
 }
@@ -28,10 +28,13 @@ h3 {
     color: black;
 }
 p {
-    font-size: 1.1rem;
+    font-size: 1rem;
     color: black;
     /* background-color: transparent; */
     text-align: center;
+}
+.background {
+background-color: transparent;
 }
 img {
     width: 10rem;
@@ -408,12 +411,6 @@ nav ul {
     color:black;
     background: transparent;
 }
-footer p span {
-    color: rgb(0, 186, 152);
-    font-weight: bold;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 1.1rem;
-}
 footer {
     /* width: 80%; */
     border-top: 5px solid #dedede;
@@ -472,6 +469,10 @@ nav.stroke ul li a:hover:after {
 /* Media Queries */
 
 @media only screen and (min-width: 480px) {
+    html {
+        font-size: 1.2rem;
+        line-height: 1.4;
+    }
     .wolfhead-02 {
         display: none;
     } 
@@ -506,7 +507,7 @@ nav.stroke ul li a:hover:after {
         left: 0;
         bottom: 0;
         right: 0;
-        width: 60rem;
+        /* width: 60rem; */
         position: absolute;
         z-index: -1;   
       }
