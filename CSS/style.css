@@ -414,8 +414,8 @@ footer p span {
     font-family: 'Courier New', Courier, monospace;
     font-size: 1.1rem;
 }
-.main-footer {
-    width: 80%;
+footer {
+    /* width: 80%; */
     border-top: 5px solid #dedede;
 }
 
