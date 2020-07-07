@@ -19,6 +19,9 @@ body {
 header {
     border-bottom: 5px solid #dedede;
 }
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
 h2 {
     font-size: 1.5rem;
     color: black;
@@ -75,6 +78,7 @@ img {
     padding-right: 1rem;
     font-weight: bold;
     opacity: .8;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .bottom-nav {
     padding-left: 1rem;
